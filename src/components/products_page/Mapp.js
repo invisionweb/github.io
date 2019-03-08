@@ -78,20 +78,20 @@ class SimpleMediaCard extends Component {
                             >
                                 <Typography
                                     gutterBottom
-                                    variant="display2"
+                                    variant="h2"
                                     component="h2"
                                 >
                                     Mapp
                                 </Typography>
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 10 }}
                                 >
                                     Location based social networking app.
                                 </Typography>
                                 <Typography
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 40 }}
                                 >
                                     Mapp is a GPS based application based upon the Android

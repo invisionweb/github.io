@@ -72,20 +72,20 @@ class SimpleMediaCard extends Component {
                             >
                                 <Typography
                                     gutterBottom
-                                    variant="display2"
+                                    variant="h2"
                                     component="h2"
                                 >
                                     JuLi
                                 </Typography>
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 10 }}
                                 >
                                     The location finder app!
                                 </Typography>
                                 <Typography
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 40 }}
                                 >
                                     The most used phrase in any language,of telecom

@@ -9,7 +9,8 @@ import {
     IconButton,
     Divider,
     MuiThemeProvider,
-    Grid
+    Grid,
+    Fab
 } from "../../../node_modules/@material-ui/core"
 import logo from "../../images/invision.png"
 import { tabChange } from "../../redux/actions/TabBarActions"
@@ -44,7 +45,7 @@ class Home extends Component {
                                 // onLoad={this.onImageLoad}
                             />
                             <Typography
-                                variant="display3"
+                                variant="h2"
                                 color="textPrimary"
                                 className={classes.titleBig}
                                 gutterBottom
@@ -52,7 +53,7 @@ class Home extends Component {
                                 Invision
                             </Typography>
                             <Typography
-                                variant="display2"
+                                variant="h2"
                                 color="textPrimary"
                                 className={classes.titleSmall}
                                 gutterBottom
@@ -60,14 +61,14 @@ class Home extends Component {
                                 Invision
                             </Typography>
                             <Typography
-                                variant="display1"
+                                variant="h4"
                                 color="textSecondary"
                                 className={classes.subheadingBig}
                             >
                                 We code your ideas. From scratch.
                             </Typography>
                             <Typography
-                                variant="subheading"
+                                variant="h6"
                                 color="textSecondary"
                                 className={classes.subheadingSmall}
                             >
@@ -88,15 +89,15 @@ class Home extends Component {
                         </Typography>
 
                         <Link smooth to="#anchor">
-                            <Button
-                                variant="fab"
+                            <Fab
+                                variant="extended"
                                 color="primary"
                                 aria-label="Edit"
                                 className={classes.button}
                                 style={{ marginTop: 20 }}
                             >
                                 <Arrow color="secondary" />
-                            </Button>
+                            </Fab>
                         </Link>
                     </div>
 
@@ -149,6 +150,9 @@ const theme = createMuiTheme({
                 backgroundColor: "#ff0000"
             }
         }
+    },
+    typography: {
+        useNextVariants: true
     }
 })
 

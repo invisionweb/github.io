@@ -46,7 +46,7 @@ class Inbox extends Component {
 
         return (
             <div>
-                <Typography variant="display2" className={classes.heading}>
+                <Typography variant="h2" className={classes.heading}>
                     Invision Inbox
                 </Typography>
 

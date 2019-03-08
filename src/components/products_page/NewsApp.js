@@ -78,7 +78,7 @@ class SimpleMediaCard extends Component {
                             >
                                 <Typography
                                     gutterBottom
-                                    variant="display2"
+                                    variant="h2"
                                     component="h2"
                                 >
                                     Asom Kotha
@@ -86,7 +86,7 @@ class SimpleMediaCard extends Component {
 
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 10 }}
                                 >
                                     An Assamese news portal dedicated to truth, justice

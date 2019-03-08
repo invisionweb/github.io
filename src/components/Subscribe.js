@@ -18,8 +18,8 @@ class Subscribe extends Component {
             <div className="subscribe-parent">
                 <div className="subscribe-gradient">
                 <div className="subscribe-text">
-                    <Typography variant="display3" className={classes.firstLine}>Subscribe to our blog!</Typography>
-                    <Typography variant="headline" className={classes.secondLine}>Get the latest articles sent to your inbox!</Typography>
+                    <Typography variant="h3" className={classes.firstLine}>Subscribe to our blog!</Typography>
+                    <Typography variant="body1" className={classes.secondLine}>Get the latest articles sent to your inbox!</Typography>
                 </div>
                 <div className="subscribe-button">
                     <TextField
@@ -32,7 +32,7 @@ class Subscribe extends Component {
                         fullWidth
                     />
                     <Button
-                        variant="raised"
+                        variant="contained"
                         color="secondary"
                         className={classes.ourProductsButton}
                     >

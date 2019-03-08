@@ -13,20 +13,20 @@ class OurProducts extends Component {
                     <div className="our-products-text-button">
                         <div className="aakhor-heading-parent">
                             <img src={aakhorLogo} width="110" />
-                            <Typography variant="display4" id="aakhor-heading-text">
+                            <Typography variant="h4" id="aakhor-heading-text">
                                 আখৰ | Aakhor
                             </Typography>
-                            <Typography variant="headline" id="aakhor-heading-desc-text">
+                            <Typography variant="body1" id="aakhor-heading-desc-text">
                                 Assamese Spell Checker, powered by Artificial Intelligence
                             </Typography>
-                            <Typography variant="subheading" color="textSecondary">
+                            <Typography variant="subtitle1" color="textSecondary">
                                 (partly open for volunteers only, till it's final release)
                             </Typography>
                         </div>
                         <Divider />
 
                         <div className="aakhor-description-parent">
-                            <Typography variant="subheading" color="textSecondary">
+                            <Typography variant="subtitle1" color="textSecondary">
                                 The backbone of আখৰ (Aakhor)'s Neural Network is typed
                                 100% in Python and is based on Google's Artificial
                                 Intelligence library Tensorflow. আখৰ (Aakhor)'s AI model
@@ -41,7 +41,7 @@ class OurProducts extends Component {
                         </div>
 
                         <Button
-                            variant="raised"
+                            variant="contained"
                             color="secondary"
                             className={classes.ourProductsButton}
                             // component={Link}

@@ -14,14 +14,14 @@ class Clients extends Component {
         return (
             <div className={classes.clientsParent}>
                 <Typography
-                    variant="display2"
+                    variant="h2"
                     color="textPrimary"
                     className={classes.clientsHeadingBig}
                 >
                     Who's using our products?
                 </Typography>
                 <Typography
-                    variant="headline"
+                    variant="body1"
                     color="textPrimary"
                     className={classes.clientsHeadingSmall}
                 >
@@ -39,7 +39,7 @@ class Clients extends Component {
                             className={classes.clientIcons}
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             IYC & YTC
                         </Typography>
                     </Grid>
@@ -51,7 +51,7 @@ class Clients extends Component {
                             width="90"
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             Zublee Foundation
                         </Typography>
                     </Grid>
@@ -62,7 +62,7 @@ class Clients extends Component {
                             className={classes.clientIcons}
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             Cotton University
                         </Typography>
                     </Grid>
@@ -73,7 +73,7 @@ class Clients extends Component {
                             className={classes.clientIcons}
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             Zilika
                         </Typography>
                     </Grid>
@@ -90,7 +90,7 @@ class Clients extends Component {
                             width="160"
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             Ganasakti
                         </Typography>
                     </Grid>
@@ -100,7 +100,7 @@ class Clients extends Component {
                             className={classes.clientIcons}
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             World Connect
                         </Typography>
                     </Grid>
@@ -110,7 +110,7 @@ class Clients extends Component {
                             className={classes.clientIcons}
                             draggable="false"
                         />
-                        <Typography variant="subheading" color="textSecondary">
+                        <Typography variant="subtitle1" color="textSecondary">
                             Assam School of Journalism
                         </Typography>
                     </Grid>

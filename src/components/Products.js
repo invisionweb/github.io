@@ -36,7 +36,7 @@ class Products extends Component {
             // >
 
             <div className={`${classes.productsParent} ${classes.spacer}`}>
-                <Typography variant="display2" className={classes.mainHeadings}>
+                <Typography variant="h2" className={classes.mainHeadings}>
                     Android apps
                 </Typography>
 
@@ -78,7 +78,7 @@ class Products extends Component {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
 
-                <Typography variant="display2" className={classes.mainHeadings}>
+                <Typography variant="h2" className={classes.mainHeadings}>
                     Commercial applications
                 </Typography>
 
@@ -104,7 +104,7 @@ class Products extends Component {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
 
-                <Typography variant="display2" className={classes.mainHeadings}>
+                <Typography variant="h2" className={classes.mainHeadings}>
                     E-paper
                 </Typography>
                 <ExpansionPanel>

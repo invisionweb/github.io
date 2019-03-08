@@ -60,7 +60,7 @@ class SimpleMediaCard extends Component {
                             <CardContent>
                                 <Typography
                                     gutterBottom
-                                    variant="display1"
+                                    variant="h1"
                                     component="h2"
                                 >
                                     Leave Management Application

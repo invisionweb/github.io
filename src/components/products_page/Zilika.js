@@ -52,12 +52,12 @@
 //                             title="Contemplative Reptile"
 //                         />
 // <CardContent>
-//     <Typography gutterBottom variant="display2" component="h2">
+//     <Typography gutterBottom variant="h2" component="h2">
 //         Zilika
 //     </Typography>
 //     <Typography
 //         component="p"
-//         variant="subheading"
+//         variant="subtitle1"
 //         style={{ paddingTop: 10 }}
 //     >
 //         Service at your doorstep!
@@ -161,13 +161,13 @@
 //             />
 // <CardContent>
 // <div style={{textAlign: "justify", paddingLeft: 10, paddingRight: 10}}>
-//   <Typography gutterBottom variant="display2"  component="h2">
+//   <Typography gutterBottom variant="h2"  component="h2">
 //     JuLi
 //   </Typography>
-//   <Typography component="p" variant="subheading" style={{paddingTop: 10}}>
+//   <Typography component="p" variant="subtitle1" style={{paddingTop: 10}}>
 //   The location finder app!
 //   </Typography>
-//   <Typography variant="subheading" style={{paddingTop: 40}}>
+//   <Typography variant="subtitle1" style={{paddingTop: 40}}>
 //   The most used phrase in any language,of telecom generation, is “Where are you?”, including Spanish, French,
 //   Mandarin, Arabic, Hindi etc. It's the fountain head of any conversation. It's a filler which has become a
 //   Siamese twin to "hello"....Pink Floyd too asked the same question. Remember?! Mom's care, friend’s affection,
@@ -272,14 +272,14 @@ class SimpleMediaCard extends Component {
                             <CardContent>
                                 <Typography
                                     gutterBottom
-                                    variant="display2"
+                                    variant="h2"
                                     component="h2"
                                 >
                                     Zilika
                                 </Typography>
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 10 }}
                                 >
                                     Service at your doorstep!

@@ -76,15 +76,14 @@ class SimpleMediaCard extends Component {
                             >
                                 <Typography
                                     gutterBottom
-                                    variant="display2"
-                                    component="h2"
+                                    variant="h2"
                                 >
                                     Anon Messenger
                                 </Typography>
 
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 10 }}
                                 >
                                     Ever came across a situation when you want to tell
@@ -92,7 +91,7 @@ class SimpleMediaCard extends Component {
                                     revealed? Anon Messenger is here to solve the problem!
                                 </Typography>
                                 <Typography
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 40 }}
                                 >
                                     Text anyone anonymously from your contacts and receive

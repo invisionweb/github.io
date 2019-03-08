@@ -133,7 +133,7 @@ class SwipeableTextMobileStepper extends React.Component {
         return (
             <div className="stepper-view-parent">
                 <div style={{ textAlign: "center", width: "100%", marginBottom: 110 }}>
-                    <Typography variant="display2" color="textPrimary">
+                    <Typography variant="h2" color="textPrimary">
                         Invision Team
                     </Typography>
                 </div>
@@ -156,13 +156,13 @@ class SwipeableTextMobileStepper extends React.Component {
                             </div>
                             <div className="stepper-view-text-parent">
                                 <div>
-                                    <Typography variant="display1">
+                                    <Typography variant="h1">
                                         {step.name}
                                     </Typography>
-                                    <Typography variant="subheading">
+                                    <Typography variant="subtitle1">
                                         {step.age} {step.designation}
                                     </Typography>
-                                    <Typography variant="subheading">
+                                    <Typography variant="subtitle1">
                                         {step.specialization}
                                     </Typography>
                                 </div>

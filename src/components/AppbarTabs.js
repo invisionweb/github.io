@@ -170,7 +170,7 @@ class AppbarTabs extends Component {
 
                             <div className={classes.headerLeft}>
                                 <Typography
-                                    variant="display1"
+                                    variant="h4"
                                     color="textPrimary"
                                     className={classes.headerSmUp}
                                     component={Link}
@@ -180,7 +180,7 @@ class AppbarTabs extends Component {
                                 </Typography>
 
                                 <Typography
-                                    variant="headline"
+                                    variant="body1"
                                     color="textPrimary"
                                     className={classes.headerSmDown}
                                 >

@@ -38,7 +38,7 @@ class PaperSheet extends Component {
                             </div>
                         </Grid>
                         <Grid item xs={12} sm={4} style={{margin: "auto"}}>
-                            <Typography variant="display1" className="footerText">
+                            <Typography variant="h1" className="footerText">
                                 Address
                             </Typography>
                             <Typography className="footerText">
@@ -47,7 +47,7 @@ class PaperSheet extends Component {
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={4} style={{margin: "auto"}}>
-                            <Typography variant="display1" className="footerText">
+                            <Typography variant="h1" className="footerText">
                                 Contacts
                             </Typography>
                             <Typography className="footerText">

@@ -61,7 +61,7 @@ class SimpleMediaCard extends Component {
                             <div>
                                 <Typography
                                     gutterBottom
-                                    variant="display1"
+                                    variant="h1"
                                     component="h2"
                                 >
                                     Cotton University App
@@ -69,7 +69,7 @@ class SimpleMediaCard extends Component {
 
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{
                                         paddingTop: 10,
                                         textAlign: "justify",

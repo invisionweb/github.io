@@ -16,7 +16,8 @@ import {
     IconButton,
     Checkbox,
     FormControlLabel,
-    Collapse
+    Collapse,
+    Fab
 } from "../../node_modules/@material-ui/core"
 import Send from "@material-ui/icons/Send"
 import Refresh from "@material-ui/icons/Refresh"
@@ -139,7 +140,7 @@ class SimpleMediaCard extends Component {
                             <Grid container spacing={16}>
                                 <Grid item xs={12} sm={12}>
                                     <Typography
-                                        variant="display1"
+                                        variant="h1"
                                         style={{ marginTop: 20, marginBottom: 20 }}
                                         color="inherit"
                                         className="invisionMarketingTeam"
@@ -147,7 +148,7 @@ class SimpleMediaCard extends Component {
                                         Write to us!
                                     </Typography>
                                     <Typography
-                                        variant="subheading"
+                                        variant="subtitle1"
                                         style={{ marginTop: 20, marginBottom: 20 }}
                                         color="inherit"
                                         className="invisionMarketingTeam"
@@ -308,8 +309,8 @@ class SimpleMediaCard extends Component {
                                 </Grid>
 
                                 <div className="sendButton">
-                                    <Button
-                                        variant="extendedFab"
+                                    <Fab
+                                        variant="extended"
                                         size="large"
                                         color="secondary"
                                         className={classes.button}
@@ -317,9 +318,9 @@ class SimpleMediaCard extends Component {
                                     >
                                         Send
                                         <Send style={{ paddingLeft: 10 }} />
-                                    </Button>
-                                    <Button
-                                        variant="extendedFab"
+                                    </Fab>
+                                    <Fab
+                                        variant="extended"
                                         size="large"
                                         color="primary"
                                         className={classes.button}
@@ -327,7 +328,7 @@ class SimpleMediaCard extends Component {
                                     >
                                         Reset
                                         <Refresh style={{ paddingLeft: 10 }} />
-                                    </Button>
+                                    </Fab>
                                 </div>
                             </Grid>
                         </form>

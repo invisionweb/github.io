@@ -25,14 +25,14 @@ class About extends Component {
                         <Card elevation={2}>
                             <section className="about-top-section-card">
                                 <Typography
-                                    variant="display3"
+                                    variant="h3"
                                     gutterBottom
                                     className={classes.headingUp}
                                 >
                                     What is Invision?
                                 </Typography>
                                 <Typography
-                                    variant="display1"
+                                    variant="h1"
                                     gutterBottom
                                     className={classes.headingDown}
                                 >
@@ -40,7 +40,7 @@ class About extends Component {
                                 </Typography>
 
                                 <Typography
-                                    variant="headline"
+                                    variant="body1"
                                     color="textSecondary"
                                     className={classes.descUp}
                                 >
@@ -52,7 +52,7 @@ class About extends Component {
                                     with technology.
                                 </Typography>
                                 <Typography
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     color="textSecondary"
                                     className={classes.descDown}
                                 >
@@ -70,12 +70,12 @@ class About extends Component {
 
                 <div className="about-us-parent">
                     <section className="about-us-left">
-                        <Typography variant="display2">About us</Typography>
+                        <Typography variant="h6">About us</Typography>
                     </section>
 
                     <section className="about-us-right">
                         <Typography
-                            variant="subheading"
+                            variant="body1"
                             color="textSecondary"
                             className={classes.aboutUsDesc}
                         >
@@ -93,12 +93,12 @@ class About extends Component {
 
                 <div className="about-us-parent">
                     <section className="about-us-left">
-                        <Typography variant="display2">Our Mission</Typography>
+                        <Typography variant="h2">Our Mission</Typography>
                     </section>
 
                     <section className="about-us-right">
                         <Typography
-                            variant="subheading"
+                            variant="subtitle1"
                             color="textSecondary"
                             className={classes.aboutUsDesc}
                         >
@@ -113,7 +113,7 @@ class About extends Component {
                 </div>
 
                 <div style={{marginTop: 100, marginBottom: 100, width: "100%", textAlign: "center"}}>
-                    <Typography variant="display2">We strive for innovation.</Typography>
+                    <Typography variant="h2">We strive for innovation.</Typography>
                 </div>
 
                 <div style={{marginTop: 100, marginBottom: 100, width: "100%", textAlign: "center"}}>

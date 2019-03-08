@@ -17,6 +17,7 @@
 .invision-logo {
     width: 20%;
     height: auto;
+    /* margin-bottom: 10px */
 }
 
 @media(max-width: 600px) {

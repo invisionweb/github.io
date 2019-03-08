@@ -76,7 +76,7 @@ class SimpleMediaCard extends Component {
                             >
                                 {/* <Typography
                                     gutterBottom
-                                    variant="display2"
+                                    variant="h2"
                                     component="h2"
                                 >
                                     গণশক্তি(Ganasakti)
@@ -84,7 +84,7 @@ class SimpleMediaCard extends Component {
 
                                 <Typography
                                     component="p"
-                                    variant="subheading"
+                                    variant="subtitle1"
                                     style={{ paddingTop: 10 }}
                                 >
                                     অসমীয়া ভাষাৰ গণশক্তি কাকতখন পঞ্জীকৰণ হয় ১৯৬৬ চনত ।
