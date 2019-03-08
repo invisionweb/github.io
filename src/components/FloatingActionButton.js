@@ -21,7 +21,7 @@ function FloatingActionButton(props) {
   return (
     <div>
       <Fab color="primary" aria-label="Add" className={classes.fab}>
-        <Arrow />
+        <Arrow color="secondary" />
       </Fab>
     </div>
   );

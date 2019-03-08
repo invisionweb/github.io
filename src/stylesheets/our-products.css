@@ -37,13 +37,13 @@
     padding: 20px 0;
 }
 
+#aakhor-heading-text {
+    font-size: 10vw;
+    margin: 20px 0px;
+}
+
 @media (max-width: 800px) {
     .our-products-parent > div {
         padding: 0 10px;
-    }
-
-    #aakhor-heading-text {
-        font-size: 10vw;
-        margin: 40px 0px;
     }
 }

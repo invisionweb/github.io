@@ -33,7 +33,7 @@ class FieldofWork extends Component {
                                 We provide solutions for
                             </Typography>
                             <Typography
-                                variant="body1"
+                                variant="h5"
                                 className={classes.fieldOfWorkHeadingSmall}
                                 color="textPrimary"
                             >

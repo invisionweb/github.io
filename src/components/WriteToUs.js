@@ -165,7 +165,7 @@ class SimpleMediaCard extends Component {
                                         onChange={this.handleChange}
                                         margin="normal"
                                         fullWidth
-                                        variant="outlined"
+                                        variant="standard"
                                     />
                                 </Grid>
 
@@ -178,7 +178,7 @@ class SimpleMediaCard extends Component {
                                         onChange={this.handleChange}
                                         margin="normal"
                                         fullWidth
-                                        variant="outlined"
+                                        variant="standard"
                                     />
                                 </Grid>
 
@@ -191,7 +191,7 @@ class SimpleMediaCard extends Component {
                                         onChange={this.handleChange}
                                         margin="normal"
                                         fullWidth
-                                        variant="outlined"
+                                        variant="standard"
                                     />
                                 </Grid>
 
@@ -204,7 +204,7 @@ class SimpleMediaCard extends Component {
                                         onChange={this.handleChange}
                                         margin="normal"
                                         fullWidth
-                                        variant="outlined"
+                                        variant="standard"
                                     />
                                 </Grid>
 
@@ -303,7 +303,7 @@ class SimpleMediaCard extends Component {
                                         fullWidth
                                         multiline
                                         rows="4"
-                                        variant="outlined"
+                                        variant="standard"
                                         
                                     />
                                 </Grid>
