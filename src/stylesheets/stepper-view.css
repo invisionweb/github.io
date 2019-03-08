@@ -1,0 +1,74 @@
+.stepper-view-parent {
+    width: 100%;
+    /* text-align: center; */
+
+    /* height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: block; */
+    /* background-color: #dadadada; */
+}
+
+.stepper-view-content-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /* grid-gap: 15px; */
+    height: auto;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.stepper-view-image-parent {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.stepper-view-text-parent {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* background-image: url("../images/shapes.svg"); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; */
+    position: relative;
+    background-color: rgb(240, 240, 240);
+}
+
+.stepper-view-text-parent > div {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(0, -50%);
+}
+
+.stepper-view-text-parent > div > * {
+    padding: 20px;
+}
+
+.stepper-view-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+}
+
+@media (max-width: 650px) {
+    .stepper-view-content-parent {
+        display: block;
+    }
+
+    .stepper-view-text-parent > div {
+        position: relative;
+        transform: translate(0, 0);
+        
+     
+    }
+}

@@ -1,0 +1,73 @@
+.specialities-grid-parent {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    /* grid-gap: 15px; */
+    height: auto;
+    justify-items: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.specialities-grid-1 {
+    text-align: center;
+    /* background-color: #FAF7EB; */
+    background-color: #e2fbfe;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 50px;
+}
+
+.specialities-grid-2 {
+    text-align: center;
+    background-color: #fde9eb;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 50px;
+}
+
+.specialities-grid-3 {
+    text-align: center;
+    background-color: #d4f5ec;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 50px;
+}
+
+.specialities-grid-4 {
+    text-align: center;
+    background-color: rgb(215, 228, 243);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 50px;
+}
+
+.specialities-grid-image {
+    margin-top: 40px;
+    width: 50%;
+}
+
+.invision-brains-parent {
+    width: 100%;
+    background: url("../images/graph.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.invision-brains-gradient {
+    padding: 30px;
+    background: linear-gradient(to right, rgb(232, 233, 233), rgba(255, 255, 255, 0));
+}
+
+.invision-brains-heading-parent {
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 800px) {
+    .specialities-grid-parent {
+        display: block;
+    }
+}

@@ -1,0 +1,74 @@
+.editor-parent {
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.editor-buttons-parent {
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 1px 3px #888888;
+}
+
+.editor-typingbody-parent {
+    padding: 40px;
+}
+
+.url-input-parent {
+    /* width: 80%; */
+    /* margin: -15px 20px 0 20px; */
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 1px 3px #888888;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    z-index: 500;
+}
+
+.url-input-parent > div {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.editor-text-blockquote {
+    font-style: italic;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Helvetica, sans-serif";
+}
+
+.editor-text-codeblock {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 17px;
+}
+
+/* style for blockquote */
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+#editor-image-parent {
+    width: 100%;
+    text-align: center;
+}
+
+#image-tag {
+    image-orientation: from-image;
+    width: 80%;
+    
+}

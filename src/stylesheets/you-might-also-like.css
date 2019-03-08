@@ -1,0 +1,104 @@
+.you-might-also-like-grid {
+    padding: 0 30px 0 30px;
+}
+
+.you-might-also-like-parent-div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.you-might-also-like-parent-div-grid > div {
+    /* border-radius: 5px; */
+    /* background-color: red; */
+    /* box-shadow: 0 1px 5px #888888; */
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ymal-image-container-div {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(215, 215, 215);
+    position: relative;
+    display: block;
+}
+
+.ymal-image {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+
+}
+
+.you-might-also-like-text-container {
+    flex: 1;
+    width: 230px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -40px;
+    box-shadow: 0 1px 5px #888888;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+.you-might-also-like-text-container:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 1130px) {
+    .content-grid {
+        padding: 0 10px 0 10px;
+    }
+
+    .you-might-also-like-grid {
+        /* padding: 0 30px 0 30px; */
+        padding: 0 10px;
+    }
+
+    .particular-news-image {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .news-post-p {
+        font-size: 15px;
+        padding: 20px 20px 30px 20px;
+        text-align: justify;
+    }
+
+    .recent-stories-parent-grid {
+        /* padding-top: 10px;
+        padding-left: 15px; */
+        padding: 0;
+    }
+
+    .news-heading-top {
+        font-size: 25px;
+    }
+
+    .you-might-also-like-header-top {
+        font-size: 25px;
+        padding: 0 ;
+
+    }
+
+    .you-might-also-like-parent-div-grid {
+        display: block;
+    }
+
+    .you-might-also-like-parent-div-grid > div {
+        margin: 20px 0 20px 0;
+    }
+}

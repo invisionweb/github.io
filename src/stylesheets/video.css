@@ -1,0 +1,172 @@
+.video-parent {
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-left-grid {
+    grid-column: 1/3;
+    margin: 0 0 0 20px;
+}
+
+.video-right-grid {
+    /* padding: 20px 20px 20px 0; */
+    grid-column: 3/4;
+    /* height: 450px; */
+    position: relative;
+    /* padding-top: 56.25%; */
+    margin: 0 20px;
+    background-color: #222325;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.playlist-height {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.playlist-parent {
+    
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #222325;
+}
+
+.playlist-parent:hover {
+    background-color: #2F2F2F;
+    cursor: pointer;
+}
+
+.playlist-parent:nth-child(1) {
+    padding: 10px 0 5px 0;
+}
+
+.playlist-parent:last-child {
+    padding: 5px 0 10px 0;
+}
+
+.playlist-thumbnail-parent {
+    flex: 1;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.playlist-thumbnail-image {
+    width: 100%;
+    display: block;
+}
+
+.playlist-video-name {
+    flex: 2;
+    text-align: left;
+    /* background-color: #222325; */
+    padding: 0px 10px 20px 20px;
+}
+
+
+
+.playlist-video-name-text {
+    color: white;
+    
+}
+
+.playlist-video-view-count {
+    text-align: left;
+    display: inline;
+    color: orange;
+}
+
+.load-more-video-button {
+    background-color: #2C2C2C;
+    color: orange;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+
+.video-info-container {
+    background-color: #000000;
+    text-align: left;
+    color: white;
+    padding:  20px 40px;
+}
+
+.video-info-subject {
+    color: orange;
+}
+
+.video-info-subject:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.video-info-post {
+    /* font-size: 25px; */
+    line-height: 150%;
+    text-align: justify;
+}
+
+.video-info-read-more-button {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+/* for the scrollbar */
+
+.video-right-grid::-webkit-scrollbar {
+    width: 10px;
+}
+
+.video-right-grid::-webkit-scrollbar-track {
+    background-color: #2C2C2C;
+}
+
+.video-right-grid::-webkit-scrollbar-thumb {
+    background-color: grey;
+}
+
+
+/* for the responsive iframe */
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media(max-width: 1100px) {
+    .video-parent {
+        display: block;
+    }
+
+    .video-left-grid {
+        
+        margin: 0;
+    }
+
+    .video-right-grid {
+        height: 400px;
+        margin: 0;
+    }
+}

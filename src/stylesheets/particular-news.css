@@ -1,0 +1,224 @@
+.sticky {
+    position: sticky;
+    top: 25px;
+}
+
+.news-div-parent {
+    box-shadow: 0 1px 5px #888888;
+    background-color: white;
+    position: relative;
+}
+
+.news-image-parent-div {
+    width: 100%;
+    /* text-align: center; */
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    /* margin-bottom: 400px; */
+    background-color: rgb(230, 230, 230);
+}
+
+.particular-news-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+}
+
+.shadow-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(67, 67, 67), rgba(255, 255, 255, 0));
+}
+
+.details-parent {
+    /* width: 100%; */
+    padding: 0 25px;
+    color: white;
+    z-index: 500;
+    word-wrap: break-word;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    /* margin-top: -400px; */
+    /* position: relative; */
+    /* top: 0;
+    left: 0; */
+    /* margin-bottom: 20px; */
+     /* background: linear-gradient(to bottom, rgb(67, 67, 67), rgba(255, 255, 255, 0)); */
+}
+
+.details-heading-p {
+    font-size: 30px;
+}
+
+.news-post-p {
+    font-size: 20px;
+    padding: 20px 50px 40px 50px;
+    text-align: justify;
+}
+
+.content-grid {
+    padding: 0 30px 0 30px;
+}
+
+/* css for RECENT STORIES  */
+
+.recent-stories-parent-grid {
+    padding-top: 60px;
+    padding-left: 15px;
+    position: sticky;
+    top: 100px;
+}
+
+.recent-header {
+    padding-left: 10px;
+}
+
+.recent-stories-div-parent {
+    /* box-shadow: 0 1px 5px #888888;
+    background-color: white;
+    border-radius: 5px; */
+    /* display: inline-block; */
+    display: flex;
+}
+
+.recent-stories-image-parent {
+    width: 40%;
+    flex: 1;
+    padding: 10px;
+    /* background-color: #888888; */
+    align-items: center;
+
+    /* object-fit: contain; */
+}
+
+.recent-stories-image {
+    max-width: 100%;
+    height: auto;
+    /* min-height: 100%;
+    min-width: 100%; */
+    /* border-radius: 5px; */
+}
+
+.recent-stories-subject-parent {
+    width: 60%;
+    /* display: inline-block; */
+    flex: 1.5;
+    padding: 10px;
+    /* object-fit: contain; */
+}
+
+.recent-stories-subject {
+    display: inline;
+}
+
+.recent-stories-subject:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    .recent-stories-parent-grid {
+        padding: 0;
+    }
+
+    .recent-header {
+        padding-left: 0;
+    }
+
+    .recent-stories-image-parent {
+        padding: 10px 10px 10px 0;
+    }
+}
+
+/* .recent-stories-author {
+    display: inline-block
+} */
+
+/* you might also like */
+
+/* .you-might-also-like-grid {
+    padding: 0 30px 0 30px;
+}
+
+.you-might-also-like-parent-div-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+
+.you-might-also-like-parent-div-grid > div {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1px 5px #888888;
+}
+
+.image-container-div {
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 600px) {
+    .content-grid {
+        padding: 0 10px 0 10px;
+    }
+
+    .you-might-also-like-grid {
+        padding: 0 30px 0 30px;
+    }
+
+    .particular-news-image {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .news-post-p {
+        font-size: 15px;
+        padding: 20px 20px 30px 20px;
+        text-align: justify;
+    }
+
+    .recent-stories-parent-grid {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    .news-heading-top {
+        font-size: 25px;
+    }
+
+    .you-might-also-like-header-top {
+        font-size: 25px;
+    }
+
+    .you-might-also-like-parent-div-grid {
+    
+        display: block;
+      
+    }
+
+    .you-might-also-like-parent-div-grid > div {
+        margin: 20px 0 20px 0;
+    }
+} */

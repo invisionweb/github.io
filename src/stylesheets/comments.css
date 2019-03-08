@@ -1,0 +1,131 @@
+hr {
+    border: none;
+    height: 0px;
+    background-color: rgb(216, 216, 216);
+    margin: 15px 150px;
+}
+
+.comments_parent {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 5px #888888;
+}
+
+.commentor-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    flex: 1;
+    color: #4c9cce;
+    /* color: #a1a1a1; */
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.time {
+    flex: 1;
+    text-align: right;
+    color: rgb(177, 177, 177);
+    padding: 4px 10px 0 0;
+}
+
+.comment-text {
+    padding: 5px 25px;
+    /* text-align: justify; */
+    /* color: #6f6f6f; */
+}
+
+.comment-text > p {
+    display: inline;
+    line-height: 130%;
+    font-size: 17px;
+    /* letter-spacing: .3px; */
+}
+
+.add-comment-parent {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 1px 5px #888888;
+}
+
+.input-field {
+    /* display: block; */
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.input-field > input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #4c9cce;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.input-field > textarea {
+    padding-top: 10px;
+    width: 100%;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid #4c9cce;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: orange;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: orange;
+}
+
+.comment-button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-color: #4c9cce;
+    border-width: 1.5px;
+    color: #4c9cce;
+}
+
+.comment-button:focus {
+    outline: none;
+}
+
+.comment-status {
+    display: inline;
+    padding-left: 20px;
+}
+
+
+/* .label {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #4c9cce;
+    transition: 0.2s all;
+} */
+
+@media (max-width: 1130px) {
+    .comments-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 600px) {
+    .comment-button {
+        width: 100%;
+    }
+
+    .comment-status {
+        display: block;
+        padding: 5px 0;
+    }
+}

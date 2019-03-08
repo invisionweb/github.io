@@ -1,0 +1,44 @@
+
+
+.anon-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+    /* grid-gap: 15px; */
+    height: auto;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 30px;
+}
+
+.anon-text {
+    grid-column: 1/2;
+}
+
+.anon-image {
+    grid-column: 2/3;
+}
+
+.products-stepper-img-parent {
+    width: 100%;
+    text-align: center;
+}
+
+.products-stepper-img {
+    width: 50%;
+}
+
+.products-stepper-img-newsapp-only {
+    width: 100%;
+}
+
+/* .products-mobile-stepper {
+    width: 100%;
+} */
+
+@media(max-width: 850px) {
+    .anon-parent {
+        display: block;
+        margin: 0px;
+    }
+}
