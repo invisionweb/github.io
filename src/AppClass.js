@@ -52,6 +52,7 @@ export const tabArray = [
 export const drawerData = [
     {name: "Home", link: "/"},
     {name: "Products", link: "/products"},
+    {name: "Training", link: "/training"},
     // {name: "News & Blog", link: "/news&blog"},
     {name: "About", link: "/about"},
     {name: "Contact Us", link: "/#contact"}

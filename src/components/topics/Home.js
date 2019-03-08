@@ -25,6 +25,7 @@ import WriteToUs from "../WriteToUs"
 import Subscribe from "../Subscribe"
 // import {Link} from "react-router-dom"
 import { HashLink as Link } from "react-router-hash-link"
+import FloatingActionButton from "../FloatingActionButton";
 
 class Home extends Component {
     constructor(props) {
@@ -87,18 +88,21 @@ class Home extends Component {
                             to reality and profoundly believe in their motto to make
                             everyone’s lives easier with technology.
                         </Typography>
-
+                        
+                        <FloatingActionButton />
+<div>
                         <Link smooth to="#anchor">
                             <Fab
                                 variant="extended"
                                 color="primary"
                                 aria-label="Edit"
-                                className={classes.button}
                                 style={{ marginTop: 20 }}
+                                size="large"
                             >
                                 <Arrow color="secondary" />
                             </Fab>
                         </Link>
+                        </div>
                     </div>
 
                     <a id="anchor" className={classes.anchor} />

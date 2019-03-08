@@ -38,7 +38,7 @@ class PaperSheet extends Component {
                             </div>
                         </Grid>
                         <Grid item xs={12} sm={4} style={{margin: "auto"}}>
-                            <Typography variant="h1" className="footerText">
+                            <Typography variant="h4" className="footerText" gutterBottom>
                                 Address
                             </Typography>
                             <Typography className="footerText">
@@ -47,7 +47,7 @@ class PaperSheet extends Component {
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={4} style={{margin: "auto"}}>
-                            <Typography variant="h1" className="footerText">
+                            <Typography variant="h4" className="footerText" gutterBottom>
                                 Contacts
                             </Typography>
                             <Typography className="footerText">
@@ -56,6 +56,7 @@ class PaperSheet extends Component {
                                 +91 7086733737 <br />
                                 +91 9435343202 <br />
                             </Typography>
+                            <br />
                             <Typography className="footerText">
                                 E-mail: <br />
                                 invisionwebtech@gmail.com

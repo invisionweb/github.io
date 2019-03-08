@@ -25,9 +25,10 @@ class FieldofWork extends Component {
                     <div className={classes.FieldofWorkParent}>
                         <a id="fieldOfWork">
                             <Typography
-                                variant="h2"
+                                variant="h3"
                                 className={classes.fieldOfWorkHeadingBig}
                                 color="textPrimary"
+                                gutterBottom
                             >
                                 We provide solutions for
                             </Typography>
@@ -47,7 +48,7 @@ class FieldofWork extends Component {
                                 className={classes.fieldOfWorkGridItems}
                             >
                                 <img src={communication} style={{width: "100px"}} />
-                                <Typography variant="body1" color="textSecondary">Communication</Typography>
+                                <Typography variant="h5" color="textSecondary">Communication</Typography>
                             </Grid>
                             <Grid
                                 item
@@ -56,7 +57,7 @@ class FieldofWork extends Component {
                                 className={classes.fieldOfWorkGridItems}
                             >
                                 <img src={service} style={{width: "100px"}} />
-                                <Typography variant="body1" color="textSecondary">Service</Typography>
+                                <Typography variant="h5" color="textSecondary">Service</Typography>
                             </Grid>
                             <Grid
                                 item
@@ -65,7 +66,7 @@ class FieldofWork extends Component {
                                 className={classes.fieldOfWorkGridItems}
                             >
                                 <img src={media} style={{width: "100px"}} />
-                                <Typography variant="body1" color="textSecondary">Media</Typography>
+                                <Typography variant="h5" color="textSecondary">Media</Typography>
                             </Grid>
                             <Grid
                                 item
@@ -74,7 +75,7 @@ class FieldofWork extends Component {
                                 className={classes.fieldOfWorkGridItems}
                             >
                                 <img src={management} style={{width: "100px"}} />
-                                <Typography variant="body1" color="textSecondary">Management</Typography>
+                                <Typography variant="h5" color="textSecondary">Management</Typography>
                             </Grid>
                         </Grid>
                     </div>

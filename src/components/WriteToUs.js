@@ -140,7 +140,7 @@ class SimpleMediaCard extends Component {
                             <Grid container spacing={16}>
                                 <Grid item xs={12} sm={12}>
                                     <Typography
-                                        variant="h1"
+                                        variant="h3"
                                         style={{ marginTop: 20, marginBottom: 20 }}
                                         color="inherit"
                                         className="invisionMarketingTeam"
@@ -150,7 +150,7 @@ class SimpleMediaCard extends Component {
                                     <Typography
                                         variant="subtitle1"
                                         style={{ marginTop: 20, marginBottom: 20 }}
-                                        color="inherit"
+                                        color="textSecondary"
                                         className="invisionMarketingTeam"
                                     >
                                         Orders, feedbacks, queries are appreciated!

@@ -32,7 +32,7 @@ class About extends Component {
                                     What is Invision?
                                 </Typography>
                                 <Typography
-                                    variant="h1"
+                                    variant="h3"
                                     gutterBottom
                                     className={classes.headingDown}
                                 >
@@ -40,7 +40,7 @@ class About extends Component {
                                 </Typography>
 
                                 <Typography
-                                    variant="body1"
+                                    variant="h6"
                                     color="textSecondary"
                                     className={classes.descUp}
                                 >
@@ -70,12 +70,12 @@ class About extends Component {
 
                 <div className="about-us-parent">
                     <section className="about-us-left">
-                        <Typography variant="h6">About us</Typography>
+                        <Typography variant="h2">About us</Typography>
                     </section>
 
                     <section className="about-us-right">
                         <Typography
-                            variant="body1"
+                            variant="subtitle1"
                             color="textSecondary"
                             className={classes.aboutUsDesc}
                         >

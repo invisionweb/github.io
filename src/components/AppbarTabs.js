@@ -108,6 +108,11 @@ class AppbarTabs extends Component {
                                             <Extension />
                                         </ListItemIcon>
                                     )}
+                                    {tab.name === "Training" && (
+                                        <ListItemIcon>
+                                            <Extension />
+                                        </ListItemIcon>
+                                    )}
                                     {tab.name === "News & Blog" && (
                                         <ListItemIcon>
                                             <ChromeReaderMode />
@@ -170,7 +175,7 @@ class AppbarTabs extends Component {
 
                             <div className={classes.headerLeft}>
                                 <Typography
-                                    variant="h4"
+                                    variant="h5"
                                     color="textPrimary"
                                     className={classes.headerSmUp}
                                     component={Link}
@@ -180,7 +185,7 @@ class AppbarTabs extends Component {
                                 </Typography>
 
                                 <Typography
-                                    variant="body1"
+                                    variant="h5"
                                     color="textPrimary"
                                     className={classes.headerSmDown}
                                 >
@@ -191,6 +196,10 @@ class AppbarTabs extends Component {
                             <div className={classes.headerRight}>
                                 <Button color="primary" component={Link} to="/products">
                                     Products
+                                </Button>
+
+                                <Button color="primary" component={Link} to="/training">
+                                    Training
                                 </Button>
 
                                 <Button color="primary" component={Link} to="/about">

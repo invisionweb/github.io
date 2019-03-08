@@ -24,3 +24,6 @@ class App extends Component {
 }
 
 export default App;
+
+//TODO
+//window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;

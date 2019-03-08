@@ -14,6 +14,8 @@ import About from "./About"
 import ContactUs from "./ContactUs"
 import Inbox from "./Inbox"
 
+import Training from '../components/Training'
+
 // google analytics
 import ReactGA from "react-ga"
 
@@ -41,6 +43,7 @@ class ButtonAppBar extends Component {
                         <Route exact path="/" component={Home} />
                         <Route exact path="/home" component={Home} />
                         <Route exact path="/products" component={Products} />
+                        <Route exact path="/training" component={Training} />
                         {/* <Route exact path="/news&blog" component={NewsBlog} /> */}
                         <Route exact path="/about" component={About} />
                         <Route exact path="/contact" component={ContactUs} />

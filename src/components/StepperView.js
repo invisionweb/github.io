@@ -156,7 +156,7 @@ class SwipeableTextMobileStepper extends React.Component {
                             </div>
                             <div className="stepper-view-text-parent">
                                 <div>
-                                    <Typography variant="h1">
+                                    <Typography variant="h4" color="textSecondary">
                                         {step.name}
                                     </Typography>
                                     <Typography variant="subtitle1">

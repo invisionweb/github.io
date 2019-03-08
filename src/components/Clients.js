@@ -14,14 +14,14 @@ class Clients extends Component {
         return (
             <div className={classes.clientsParent}>
                 <Typography
-                    variant="h2"
+                    variant="h3"
                     color="textPrimary"
                     className={classes.clientsHeadingBig}
                 >
                     Who's using our products?
                 </Typography>
                 <Typography
-                    variant="body1"
+                    variant="h5"
                     color="textPrimary"
                     className={classes.clientsHeadingSmall}
                 >

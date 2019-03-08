@@ -14,7 +14,7 @@ class Specialities extends Component {
             <div>
                 <div className="specialities-grid-parent">
                     <div className="specialities-grid-1">
-                        <Typography variant="body1" color="textSecondary">
+                        <Typography variant="h4" color="textSecondary">
                             We follow industry standards
                         </Typography>
                         <object
@@ -25,7 +25,7 @@ class Specialities extends Component {
                         />
                     </div>
                     <div className="specialities-grid-2">
-                        <Typography variant="body1" color="textSecondary">
+                        <Typography variant="h4" color="textSecondary">
                             We implement Material Design
                         </Typography>
                         <object
@@ -36,7 +36,7 @@ class Specialities extends Component {
                         />
                     </div>
                     <div className="specialities-grid-3">
-                        <Typography variant="body1" color="textSecondary">
+                        <Typography variant="h4" color="textSecondary">
                             We deliver ad-free products
                         </Typography>
                         <object
@@ -47,7 +47,7 @@ class Specialities extends Component {
                         />
                     </div>
                     <div className="specialities-grid-4">
-                        <Typography variant="body1" color="textSecondary">
+                        <Typography variant="h4" color="textSecondary">
                             We code with React
                         </Typography>
                         <object
@@ -69,7 +69,7 @@ class Specialities extends Component {
                                 Invision <span className={classes.brains}>Brain</span>
                             </Typography>
                             <Typography
-                                variant="h1"
+                                variant="h3"
                                 className={classes.invisionBrainsDown}
                             >
                                 Invision <span className={classes.brains}>Brain</span>
@@ -79,11 +79,12 @@ class Specialities extends Component {
                             <Typography
                                 variant="h3"
                                 className={classes.invisionBrainsUp}
+                                color="textSecondary"
                             >
                                 Our venture into the world of Artificial Intelligence
                             </Typography>
                             <Typography
-                                variant="body1"
+                                variant="h6"
                                 className={classes.invisionBrainsDown}
                                 color="textSecondary"
                             >

@@ -13,10 +13,10 @@ class OurProducts extends Component {
                     <div className="our-products-text-button">
                         <div className="aakhor-heading-parent">
                             <img src={aakhorLogo} width="110" />
-                            <Typography variant="h4" id="aakhor-heading-text">
-                                আখৰ | Aakhor
+                            <Typography variant="h1" id="aakhor-heading-text">
+                                Aakhor
                             </Typography>
-                            <Typography variant="body1" id="aakhor-heading-desc-text">
+                            <Typography variant="h5" id="aakhor-heading-desc-text">
                                 Assamese Spell Checker, powered by Artificial Intelligence
                             </Typography>
                             <Typography variant="subtitle1" color="textSecondary">
