@@ -61,7 +61,7 @@ class SimpleMediaCard extends Component {
                             <div>
                                 <Typography
                                     gutterBottom
-                                    variant="h1"
+                                    variant="h2"
                                     component="h2"
                                 >
                                     Cotton University App
