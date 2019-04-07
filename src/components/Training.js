@@ -97,6 +97,17 @@ class Training extends React.Component {
               Register
             </Button>
           </div>
+
+          <TextField variant="outlined" label="Enter name" fullWidth />
+          <TextField variant="outlined" label="Enter email" fullWidth />
+          <TextField variant="outlined" label="Enter phone number" fullWidth />
+
+          <div className={classes.buttonContainer}>
+            <Button variant="outlined" color="primary" align="center">
+              submit
+            </Button>
+          </div>
+
         </div>
 
         <Grid container spacing={0}>
