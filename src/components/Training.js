@@ -42,6 +42,15 @@ const styles = theme => ({
   },
   buttonContainer: {
     margin: "20px"
+  },
+  textFieldClass: {
+    margin: "10px 0px"
+  },
+  formContainer: {
+    // margin: '10px 20%',
+    margin: "0 auto",
+    width: "100%",
+    maxWidth: "600px"
   }
 });
 
@@ -65,7 +74,7 @@ function Card_ui(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://google.com">
           Details
         </Button>
       </CardActions>
@@ -98,9 +107,13 @@ class Training extends React.Component {
             </Button>
           </div>
 
-          <TextField variant="outlined" label="Enter name" fullWidth />
-          <TextField variant="outlined" label="Enter email" fullWidth />
-          <TextField variant="outlined" label="Enter phone number" fullWidth />
+          <div className={classes.formContainer}>
+
+          <TextField variant="outlined" label="Enter name" fullWidth className={classes.textFieldClass} />
+          <TextField variant="outlined" label="Enter email" fullWidth className={classes.textFieldClass} />
+          <TextField variant="outlined" label="Enter phone number" fullWidth  className={classes.textFieldClass} />
+          
+          </div>
 
           <div className={classes.buttonContainer}>
             <Button variant="outlined" color="primary" align="center">
