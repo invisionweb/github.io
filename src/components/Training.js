@@ -13,6 +13,9 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 
+import $ from "jquery";
+import { writeToUsPHP } from "../AppClass";
+
 const styles = theme => ({
   container: {
     display: "flex",
@@ -83,6 +86,49 @@ function Card_ui(props) {
 }
 
 class Training extends React.Component {
+  state = {
+    name: '',
+    email: '',
+    phone: '',
+    showForm: false
+  };
+
+  handleChange = (e, stateName) => {
+    this.setState({[stateName] : e.currentTarget.value})
+  }
+
+  submitTrainingForm = () => {
+    console.log(this.state)
+    
+    $.ajax({
+      type: "POST",
+      url: writeToUsPHP,
+      // contentType: "application/json; charset=utf-8",
+      // dataType: "json",
+      data: {
+        pkey: new Date().getTime(),
+        name: this.state.name,
+        email: this.state.email,
+        phone: this.state.phone,
+        address: "",
+        occupation: "",
+        job: "training",
+        message: ""
+      },
+      success: function(res) {
+        if (res === "success") {
+          alert("Form submitted successfully.");
+        } else if (res === "fail") {
+          alert("Try again.");
+        }
+      }.bind(this),
+      error: function(error) {
+        console.log(error);
+        alert("Try again.");
+      }
+    });
+  };
+
   render() {
     const { classes } = this.props;
     return (
@@ -102,25 +148,55 @@ class Training extends React.Component {
           </Typography>
 
           <div className={classes.buttonContainer}>
-            <Button variant="contained" color="primary" align="center">
+            <Button
+              variant="contained"
+              color="primary"
+              align="center"
+              onClick={() => {
+                this.setState({ showForm: this.state.showForm ? false : true})
+              }}
+            >
               Register
             </Button>
           </div>
 
-          <div className={classes.formContainer}>
-
-          <TextField variant="outlined" label="Enter name" fullWidth className={classes.textFieldClass} />
-          <TextField variant="outlined" label="Enter email" fullWidth className={classes.textFieldClass} />
-          <TextField variant="outlined" label="Enter phone number" fullWidth  className={classes.textFieldClass} />
-          
-          </div>
-
-          <div className={classes.buttonContainer}>
-            <Button variant="outlined" color="primary" align="center">
-              submit
-            </Button>
-          </div>
-
+          {this.state.showForm && (
+            <div className={classes.formContainer}>
+              <TextField
+                variant="outlined"
+                label="Enter name"
+                fullWidth
+                className={classes.textFieldClass}
+                onChange={(e) => this.handleChange(e, 'name')}
+              />
+              <TextField
+                variant="outlined"
+                label="Enter email"
+                fullWidth
+                className={classes.textFieldClass}
+                onChange={(e) => this.handleChange(e, 'email')}
+              />
+              <TextField
+                variant="outlined"
+                label="Enter phone number"
+                fullWidth
+                className={classes.textFieldClass}
+                onChange={(e) => this.handleChange(e, 'phone')}
+              />
+              <div className={classes.buttonContainer}>
+                <Button
+                  variant="outlined"
+                  color="primary"
+                  align="center"
+                  onClick={() => {
+                    this.submitTrainingForm();
+                  }}
+                >
+                  submit
+                </Button>
+              </div>
+            </div>
+          )}
         </div>
 
         <Grid container spacing={0}>
