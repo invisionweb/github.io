@@ -65,7 +65,7 @@ function Card_ui(props) {
           component="img"
           alt=""
           className={props.prop.media}
-          height="140"
+          height="180"
           image={props.img_link}
           title=""
         />
@@ -110,10 +110,10 @@ class Training extends React.Component {
         name: this.state.name,
         email: this.state.email,
         phone: this.state.phone,
-        address: "",
-        occupation: "",
+        address: this.state.address,
+        occupation: "student",
         job: "training",
-        message: ""
+        message: "training"
       },
       success: function(res) {
         if (res === "success") {
@@ -183,6 +183,13 @@ class Training extends React.Component {
                 className={classes.textFieldClass}
                 onChange={(e) => this.handleChange(e, 'phone')}
               />
+              <TextField
+                variant="outlined"
+                label="Enter address"
+                fullWidth
+                className={classes.textFieldClass}
+                onChange={(e) => this.handleChange(e, 'address')}
+              />
               <div className={classes.buttonContainer}>
                 <Button
                   variant="outlined"
@@ -203,7 +210,7 @@ class Training extends React.Component {
           <Grid item xs={12} sm={4}>
             <Card_ui
               prop={classes}
-              img_link="http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1508177585/Periodic_xlxins.png"
+              img_link="https://www.webkites.in/images/admin/category_image/web_design1.png"
               title="Web development"
               subtitle="3 months course"
             />
@@ -211,17 +218,17 @@ class Training extends React.Component {
           <Grid item xs={12} sm={4}>
             <Card_ui
               prop={classes}
-              img_link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVOjdXaH5M_qEAn4kS7OJJPcjjx-aeBIFr3eS6Oqoypi1NZetS"
+              img_link="https://www.sagipl.com/images/mobile-application-development/mobile-application-help.jpg"
               title="Mobile app development"
-              subtitle="Android & iOS 3 months course"
+              subtitle="Android & iOS | 3 months course"
             />
           </Grid>
           <Grid item xs={12} sm={4}>
             <Card_ui
               prop={classes}
-              img_link="http://www.datascience.co.nz/imgs/logo.png"
+              img_link="https://www.fi.edu/sites/default/files/General_Articles_ArtificialIntelligence.jpg"
               title="Artificial intelligence"
-              subtitle="& Machine learning 3 months course"
+              subtitle="& Machine learning | 3 months course"
             />
           </Grid>
         </Grid>
