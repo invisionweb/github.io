@@ -8,7 +8,8 @@ import {
     ExpansionPanel,
     ExpansionPanelSummary,
     ExpansionPanelDetails,
-    Slide
+    Slide,
+    Button
 } from "@material-ui/core"
 import Juli from "./products_page/Juli"
 import Mapp from "./products_page/Mapp"
@@ -39,6 +40,28 @@ class Products extends Component {
                 <Typography variant="h2" className={classes.mainHeadings}>
                     Android apps
                 </Typography>
+
+                <ExpansionPanel>
+                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                        <Typography className={classes.heading}>
+                            World connect
+                        </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                    <Button color="primary" href="https://play.google.com/store/apps/details?id=in.invisionweb.worldconnect&hl=en">Download from Google PlayStore</Button>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+
+                <ExpansionPanel>
+                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                        <Typography className={classes.heading}>
+                            North-east yoga care
+                        </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Button color="primary" href="https://play.google.com/store/apps/details?id=in.invisionweb.neyogacare&hl=en">Download from Google PlayStore</Button>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
 
                 <ExpansionPanel>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>

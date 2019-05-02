@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 import MenuItem from "@material-ui/core/MenuItem";
 import TextField from "@material-ui/core/TextField";
-import { Typography, Grid, Paper } from "@material-ui/core";
+import { Typography, Grid, Paper, FilledInput, Select, FormControl, InputLabel } from "@material-ui/core";
 
 import PropTypes, { func } from "prop-types";
 import Card from "@material-ui/core/Card";
@@ -77,7 +77,7 @@ function Card_ui(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" href="https://google.com">
+        <Button size="small" color="primary" href={props.web_link}>
           Details
         </Button>
       </CardActions>
@@ -90,7 +90,8 @@ class Training extends React.Component {
     name: '',
     email: '',
     phone: '',
-    showForm: false
+    showForm: false,
+    interest : "Choose topic"
   };
 
   handleChange = (e, stateName) => {
@@ -113,7 +114,7 @@ class Training extends React.Component {
         address: this.state.address,
         occupation: "student",
         job: "training",
-        message: "training"
+        message: this.state.interest
       },
       success: function(res) {
         if (res === "success") {
@@ -190,6 +191,26 @@ class Training extends React.Component {
                 className={classes.textFieldClass}
                 onChange={(e) => this.handleChange(e, 'address')}
               />
+
+
+              <FormControl variant="filled" className={classes.formContainer} fullWidth>
+          <InputLabel htmlFor="filled-age-simple">Choose topic</InputLabel>
+          <Select
+            value={this.state.interest}
+            onChange={(e) => this.setState({interest : e.target.value})}
+            input={<FilledInput name="Choose topic" id="filled-age-simple" />}
+          >
+              <MenuItem value="">
+                    <em></em>
+                  </MenuItem>
+                  <MenuItem value={"web development"}>Web development</MenuItem>
+                  <MenuItem value={"mobile app development"}>Mobile app development</MenuItem>
+                  <MenuItem value={"artificial intelligence"}>Artificial intelligence</MenuItem>
+          </Select>
+        </FormControl>
+
+
+
               <div className={classes.buttonContainer}>
                 <Button
                   variant="outlined"
@@ -211,6 +232,7 @@ class Training extends React.Component {
             <Card_ui
               prop={classes}
               img_link="https://www.webkites.in/images/admin/category_image/web_design1.png"
+              web_link="https://www.w3schools.com/"
               title="Web development"
               subtitle="3 months course"
             />
@@ -219,6 +241,7 @@ class Training extends React.Component {
             <Card_ui
               prop={classes}
               img_link="https://www.sagipl.com/images/mobile-application-development/mobile-application-help.jpg"
+              web_link="https://www.udacity.com/"
               title="Mobile app development"
               subtitle="Android & iOS | 3 months course"
             />
@@ -227,6 +250,7 @@ class Training extends React.Component {
             <Card_ui
               prop={classes}
               img_link="https://www.fi.edu/sites/default/files/General_Articles_ArtificialIntelligence.jpg"
+              web_link="https://tensorflow.org"
               title="Artificial intelligence"
               subtitle="& Machine learning | 3 months course"
             />
