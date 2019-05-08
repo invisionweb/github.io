@@ -10,6 +10,7 @@ import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight"
 import SwipeableViews from "react-swipeable-views"
 import indranil from "../images/profile/indranil2.jpg"
 import kabyanil from "../images/profile/kabyanil.jpg"
+import bikram from "../images/profile/bikram.jpg"
 import sachi from "../images/profile/sachi.jpg"
 import nayan from "../images/profile/nayan.jpg"
 import arnab from "../images/profile/arnab3.jpg"
@@ -44,6 +45,15 @@ const tutorialSteps = [
         specialization:
             "During his school life, Kabyanil used to play around different programming languages including C, C++, HTML, CSS etc. After completing his schooling from Assam Jatiya Bidyalay, he joined Cotton University in the department of computer science & IT and is currently pursuing his degree in computer science. Kabyanil expertises in UI/UX design and codes in React, React native and Flutter. Kabyanil was the world Rubik's cube champion, 2015 in 3x3 blindfolded category.",
         imgPath: kabyanil
+    },
+    {
+        label: "1. Work with something that you like, like…",
+        name: "Bikram Deka",
+        age: "19 / ",
+        designation: "Developer",
+        specialization:
+            "Bikram Deka is passionate about coding. He has experties in HTML, CSS, Java Script (React), Material UI, PHP, My SQL and JAVA . He completed his schooling from Montfort School Bongaigaon.",
+        imgPath: bikram
     },
     {
         label: "2. Keep your friends close to you and hangout with them",

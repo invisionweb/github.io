@@ -46,11 +46,11 @@ class AppbarTabs extends Component {
     }
 
     componentDidMount() {
-        window.addEventListener("scroll", this.handleScroll, { passive: true })
+        //window.addEventListener("scroll", this.handleScroll, { passive: true })
     }
 
     componentWillUnmount() {
-        window.removeEventListener("scroll", this.handleScroll)
+        //window.removeEventListener("scroll", this.handleScroll)
     }
 
     handleScroll = evt => {

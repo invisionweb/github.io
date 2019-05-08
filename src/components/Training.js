@@ -135,7 +135,7 @@ class Training extends React.Component {
     return (
       <div>
         <div className={classes.headerBox}>
-          <Typography variant="h3" align="center" gutterBottom>
+          <Typography variant="h4" align="center" gutterBottom>
             Training course by Invision
           </Typography>
 
