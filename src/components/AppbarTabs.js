@@ -23,6 +23,7 @@ import Extension from "@material-ui/icons/Extension"
 import ChromeReaderMode from "@material-ui/icons/ChromeReaderMode"
 import Info from "@material-ui/icons/Info"
 import Call from "@material-ui/icons/Call"
+import SchoolIcon from "@material-ui/icons/School"
 import Home from "@material-ui/icons/Home"
 import logo from "../images/invision.png"
 import { Link } from "react-router-dom"
@@ -110,7 +111,7 @@ class AppbarTabs extends Component {
                                     )}
                                     {tab.name === "Training" && (
                                         <ListItemIcon>
-                                            <Extension />
+                                            <SchoolIcon />
                                         </ListItemIcon>
                                     )}
                                     {tab.name === "News & Blog" && (
