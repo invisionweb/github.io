@@ -50,7 +50,7 @@ class OurProducts extends Component {
                             // to="/products"
                             size="large"
                             onClick={() => {
-                                window.open("https://invisionweb.in/aakhor/", "_blank")
+                                window.open("https://aakhor.in/", "_blank")
                             }}
                         >
                             Use আখৰ | Aakhor
