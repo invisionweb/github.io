@@ -112,7 +112,7 @@ class Clients extends Component {
               draggable="false"
             />
             <Typography variant="subtitle1" color="textSecondary">
-              Byatikram Group
+              Byatikram
             </Typography>
           </Grid>
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
