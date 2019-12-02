@@ -46,6 +46,15 @@ const tutorialSteps = [
             "During his school life, Kabyanil used to play around different programming languages including C, C++, HTML, CSS etc. After completing his schooling from Assam Jatiya Bidyalay, he joined Cotton University in the department of computer science & IT and is currently pursuing his degree in computer science. Kabyanil expertises in UI/UX design and codes in React, React native and Flutter. Kabyanil was the world Rubik's cube champion, 2015 in 3x3 blindfolded category.",
         imgPath: kabyanil
     },
+    // {
+    //     label: "1. Work with something that you like, like…",
+    //     name: "Rajprateem Saikia",
+    //     age: "25 / ",
+    //     designation: "Designer/Developer",
+    //     specialization:
+    //         "",
+    //     imgPath: kabyanil
+    // },
     {
         label: "1. Work with something that you like, like…",
         name: "Bikram Deka",
@@ -55,33 +64,33 @@ const tutorialSteps = [
             "Bikram Deka is passionate about coding. He has experties in HTML, CSS, Java Script (React), Material UI, PHP, My SQL and JAVA . He completed his schooling from Montfort School Bongaigaon.",
         imgPath: bikram
     },
-    {
-        label: "2. Keep your friends close to you and hangout with them",
-        name: "Nayanjyoti Sharma",
-        age: "24 / ",
-        designation: "Developer",
-        specialization:
-            "Nayan is a computer hobbyist. He did his schooling from Assam Jatiya Bidyalay and later went on to study in GIMT, Guwahati. He expertises in Android, iOS app development, HTML, php, mySQL, JavaScript, React, Unity game development and so on.",
-        imgPath: nayan
-    },
-    {
-        label: "3. Travel everytime that you have a chance",
-        name: "Sachidananda Borah",
-        age: "22 / ",
-        designation: "Marketing Executive",
-        specialization:
-            "Sachi completed his schooling from Pichala National Academy, Lakhimpur and studied political science honours in Cotton University. During this period, he was associated with organizing various events, including Cotton Fest 2017. Sachi possesses excellent organization, negotiation, sales and marketing skills.",
-        imgPath: sachi
-    },
-    {
-        label: "4. And contribute to Material-UI :D",
-        name: "Arnab Sharma",
-        age: "23 / ",
-        designation: "Developer",
-        specialization:
-            "Arnab completed computer science engineering from Jorhat Engineering College. During this period, he studied artificial intelligence and is presently working on various projects under Invision Brain.",
-        imgPath: arnab
-    },
+    // {
+    //     label: "2. Keep your friends close to you and hangout with them",
+    //     name: "Nayanjyoti Sharma",
+    //     age: "24 / ",
+    //     designation: "Developer",
+    //     specialization:
+    //         "Nayan is a computer hobbyist. He did his schooling from Assam Jatiya Bidyalay and later went on to study in GIMT, Guwahati. He expertises in Android, iOS app development, HTML, php, mySQL, JavaScript, React, Unity game development and so on.",
+    //     imgPath: nayan
+    // },
+    // {
+    //     label: "3. Travel everytime that you have a chance",
+    //     name: "Sachidananda Borah",
+    //     age: "22 / ",
+    //     designation: "Marketing Executive",
+    //     specialization:
+    //         "Sachi completed his schooling from Pichala National Academy, Lakhimpur and studied political science honours in Cotton University. During this period, he was associated with organizing various events, including Cotton Fest 2017. Sachi possesses excellent organization, negotiation, sales and marketing skills.",
+    //     imgPath: sachi
+    // },
+    // {
+    //     label: "4. And contribute to Material-UI :D",
+    //     name: "Arnab Sharma",
+    //     age: "23 / ",
+    //     designation: "Developer",
+    //     specialization:
+    //         "Arnab completed computer science engineering from Jorhat Engineering College. During this period, he studied artificial intelligence and is presently working on various projects under Invision Brain.",
+    //     imgPath: arnab
+    // },
     {
         label: "4. Travel everytime that you have a chance",
         name: "Amal Dutta",

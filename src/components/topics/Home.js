@@ -66,14 +66,14 @@ class Home extends Component {
                 color="textSecondary"
                 className={classes.subheadingBig}
               >
-                We code your ideas. From scratch.
+                We code your ideas
               </Typography>
               <Typography
                 variant="h6"
                 color="textSecondary"
                 className={classes.subheadingSmall}
               >
-                We code your ideas. From scratch.
+                We code your ideas
               </Typography>
             </div>
 

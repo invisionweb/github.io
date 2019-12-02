@@ -104,7 +104,7 @@ class AppbarTabs extends Component {
                                             <Home />
                                         </ListItemIcon>
                                     )}
-                                    {tab.name === "Products" && (
+                                    {tab.name === "Projects" && (
                                         <ListItemIcon>
                                             <Extension />
                                         </ListItemIcon>
@@ -146,7 +146,7 @@ class AppbarTabs extends Component {
                     <AppBar
                         position="fixed"
                         color="inherit"
-                        elevation={1}
+                        elevation={0}
                         className={`${classes.root} ${
                             this.state.shouldShow === null
                                 ? ""
@@ -196,7 +196,7 @@ class AppbarTabs extends Component {
 
                             <div className={classes.headerRight}>
                                 <Button color="primary" component={Link} to="/products">
-                                    Products
+                                    Projects
                                 </Button>
 
                                 <Button color="primary" component={Link} to="/training">
