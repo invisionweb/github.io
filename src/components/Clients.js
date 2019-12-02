@@ -8,6 +8,7 @@ import ganasaktiLogo from "../images/ganasakti.png";
 import zubleeFoundationLogo from "../images/zublee_foundation.png";
 import wcLogo from "../images/wc.png";
 import byatikramLogo from "../images/byatikram-logo.jpg";
+import adcraftLogo from "../images/adcraft.png";
 
 class Clients extends Component {
   render() {
@@ -112,7 +113,7 @@ class Clients extends Component {
 
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
-              src={"http://adcraftstudio.in/static/images/logo.png"}
+              src={adcraftLogo}
               className={classes.clientIcons}
               draggable="false"
             />
