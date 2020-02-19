@@ -73,7 +73,7 @@ class Clients extends Component {
 
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
-              src={"https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/77415701_131209084977730_1651373118100340736_n.jpg?_nc_cat=102&_nc_ohc=iS3A3wv_mAAAQkyillCJdK8lwjuxHhVw6p32q8KmxmayZRvijRV6Z6YFA&_nc_ht=scontent-maa2-2.xx&oh=52a8cc5c8207a7bc1e449fab6a8b02db&oe=5E421C7C"}
+              src={"https://directtalks.in/main/static/media/directtalks.5bbd4250.jpeg"}
               className={classes.clientIcons}
               draggable="false"
             />
