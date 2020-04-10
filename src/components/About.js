@@ -118,7 +118,9 @@ class About extends Component {
             textAlign: "center",
           }}
         >
-          <Typography variant="h2">We strive for innovation.</Typography>
+          <Typography variant="h4">
+            Frameworks . Libraries. Languages
+          </Typography>
         </div>
 
         <div
