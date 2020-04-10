@@ -52,9 +52,8 @@ class PaperSheet extends Component {
                             </Typography>
                             <Typography className="footerText">
                                 Phone: <br />
-                                +91 9678517337 <br />
                                 +91 7086733737 <br />
-                                +91 9435343202 <br />
+                                +91 9678517337 <br />
                             </Typography>
                             <br />
                             <Typography className="footerText">

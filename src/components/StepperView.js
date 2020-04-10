@@ -55,15 +55,15 @@ const tutorialSteps = [
     //         "",
     //     imgPath: kabyanil
     // },
-    {
-        label: "1. Work with something that you like, like…",
-        name: "Bikram Deka",
-        age: "19 / ",
-        designation: "Developer",
-        specialization:
-            "Bikram Deka is passionate about coding. He has experties in HTML, CSS, Java Script (React), Material UI, PHP, My SQL and JAVA . He completed his schooling from Montfort School Bongaigaon.",
-        imgPath: bikram
-    },
+    // {
+    //     label: "1. Work with something that you like, like…",
+    //     name: "Bikram Deka",
+    //     age: "19 / ",
+    //     designation: "Developer",
+    //     specialization:
+    //         "Bikram Deka is passionate about coding. He has experties in HTML, CSS, Java Script (React), Material UI, PHP, My SQL and JAVA . He completed his schooling from Montfort School Bongaigaon.",
+    //     imgPath: bikram
+    // },
     // {
     //     label: "2. Keep your friends close to you and hangout with them",
     //     name: "Nayanjyoti Sharma",
@@ -91,14 +91,14 @@ const tutorialSteps = [
     //         "Arnab completed computer science engineering from Jorhat Engineering College. During this period, he studied artificial intelligence and is presently working on various projects under Invision Brain.",
     //     imgPath: arnab
     // },
-    {
-        label: "4. Travel everytime that you have a chance",
-        name: "Amal Dutta",
-        age: "38 / ",
-        designation: "Lawyer / Legal Adviser",
-        specialization: "Member, Child Welfare Committee, Kamrup (M), Assam. Studied Post Graduate Diploma in Human Rights at Human Rights Your Rights.",
-        imgPath: amal
-    }
+    // {
+    //     label: "4. Travel everytime that you have a chance",
+    //     name: "Amal Dutta",
+    //     age: "38 / ",
+    //     designation: "Lawyer / Legal Adviser",
+    //     specialization: "Member, Child Welfare Committee, Kamrup (M), Assam. Studied Post Graduate Diploma in Human Rights at Human Rights Your Rights.",
+    //     imgPath: amal
+    // }
 ]
 
 const styles = theme => ({
@@ -153,7 +153,7 @@ class SwipeableTextMobileStepper extends React.Component {
             <div className="stepper-view-parent">
                 <div style={{ textAlign: "center", width: "100%", marginBottom: 110 }}>
                     <Typography variant="h2" color="textPrimary">
-                        Invision Team
+                        Invision Founders
                     </Typography>
                 </div>
                 <SwipeableViews

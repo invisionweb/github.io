@@ -9,6 +9,10 @@ import zubleeFoundationLogo from "../images/zublee_foundation.png";
 import wcLogo from "../images/wc.png";
 import byatikramLogo from "../images/byatikram-logo.jpg";
 import adcraftLogo from "../images/adcraft.png";
+import freebirdsLogo from "../images/freebirds_logo.png";
+import jcafeLogo from "../images/jcafe_logo.jpg";
+import goenkaLogo from "../images/goenka-samrat-logo.png";
+import getNotesLogo from "../images/get-notes.png";
 
 class Clients extends Component {
   render() {
@@ -35,27 +39,21 @@ class Clients extends Component {
           alignItems="flex-end"
           className={classes.clientsGridsParent}
         >
-
-
-<Grid item md={3} xs={6} className={classes.clientsGrids}>
+          <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
-              src={"https://scontent-maa2-2.cdninstagram.com/vp/a44f379754fccbe0402c64fd6d5dca77/5E858094/t51.2885-19/s320x320/70112577_404323653619324_2945464816132685824_n.jpg?_nc_ht=scontent-maa2-2.cdninstagram.com"}
+              src={getNotesLogo}
               className={classes.clientIcons}
               draggable="false"
             />
             <Typography variant="subtitle1" color="textSecondary">
-              Freebirds
+              Get Your Notes
             </Typography>
           </Grid>
 
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
-            <img
-              src={"https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-1/p320x320/30714434_186702905291698_6102717330079350784_n.jpg?_nc_cat=105&_nc_ohc=IiHNqHNzrLsAQmsg_d_aYsstsW59GNUHuA77tKMi9ystS7D2WFb96nupA&_nc_ht=scontent-maa2-2.xx&oh=d10da7260b42b1af8afdf60eec87f04d&oe=5E7EE1FA"}
-              className={classes.clientIcons}
-              draggable="false"
-            />
+            <img src={freebirdsLogo} draggable="false" />
             <Typography variant="subtitle1" color="textSecondary">
-              Jollywood Cafe
+              Freebirds
             </Typography>
           </Grid>
 
@@ -70,10 +68,11 @@ class Clients extends Component {
             </Typography>
           </Grid>
 
-
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
-              src={"https://directtalks.in/main/static/media/directtalks.5bbd4250.jpeg"}
+              src={
+                "https://directtalks.in/main/static/media/directtalks.5bbd4250.jpeg"
+              }
               className={classes.clientIcons}
               draggable="false"
             />
@@ -81,15 +80,14 @@ class Clients extends Component {
               Direct Talks
             </Typography>
           </Grid>
-          </Grid>
+        </Grid>
 
-          <Grid
+        <Grid
           container
           alignItems="flex-end"
           className={classes.clientsGridsParent}
         >
-
-<Grid item md={3} xs={6} className={classes.clientsGrids}>
+          <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
               src={cottonLogo}
               className={classes.clientIcons}
@@ -102,9 +100,9 @@ class Clients extends Component {
 
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
-              src={"https://goenkasamrat.com/image/catalog/logo-final.png"}
+              src={goenkaLogo}
               draggable="false"
-              style={{backgroundColor: 'gray'}}
+              style={{ backgroundColor: "gray" }}
             />
             <Typography variant="subtitle1" color="textSecondary">
               Samrat Goenka
@@ -124,7 +122,9 @@ class Clients extends Component {
 
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
-              src={"https://keshariindustries.co/app/static/media/logo.598c4dc5.jpg"}
+              src={
+                "https://keshariindustries.co/app/static/media/logo.598c4dc5.jpg"
+              }
               className={classes.clientIcons}
               draggable="false"
             />
@@ -133,80 +133,79 @@ class Clients extends Component {
             </Typography>
           </Grid>
 
-
-         
-
           <Grid
-          container
-          alignItems="flex-end"
-          className={classes.clientsGridsParent}
-        >
+            container
+            alignItems="flex-end"
+            className={classes.clientsGridsParent}
+          >
+            <Grid item md={3} xs={6} className={classes.clientsGrids}>
+              <img
+                src={indianYogaLogo}
+                className={classes.clientIcons}
+                draggable="false"
+              />
+              <Typography variant="subtitle1" color="textSecondary">
+                IYC & YTC
+              </Typography>
+            </Grid>
 
-          <Grid item md={3} xs={6} className={classes.clientsGrids}>
-            <img
-              src={indianYogaLogo}
-              className={classes.clientIcons}
-              draggable="false"
-            />
-            <Typography variant="subtitle1" color="textSecondary">
-              IYC & YTC
-            </Typography>
-          </Grid>
+            <Grid item md={3} xs={6} className={classes.clientsGrids}>
+              <img
+                src={zubleeFoundationLogo}
+                // className={classes.clientIcons}
+                width="90"
+                draggable="false"
+              />
+              <Typography variant="subtitle1" color="textSecondary">
+                Zublee Foundation
+              </Typography>
+            </Grid>
 
-          <Grid item md={3} xs={6} className={classes.clientsGrids}>
-            <img
-              src={zubleeFoundationLogo}
-              // className={classes.clientIcons}
-              width="90"
-              draggable="false"
-            />
-            <Typography variant="subtitle1" color="textSecondary">
-              Zublee Foundation
-            </Typography>
-          </Grid>
+            <Grid item md={3} xs={6} className={classes.clientsGrids}>
+              <img
+                src={zilikaLogo}
+                className={classes.clientIcons}
+                draggable="false"
+              />
+              <Typography variant="subtitle1" color="textSecondary">
+                Zilika
+              </Typography>
+            </Grid>
 
-          <Grid item md={3} xs={6} className={classes.clientsGrids}>
-            <img
-              src={zilikaLogo}
-              className={classes.clientIcons}
-              draggable="false"
-            />
-            <Typography variant="subtitle1" color="textSecondary">
-              Zilika
-            </Typography>
+            <Grid item md={3} xs={6} className={classes.clientsGrids}>
+              <img
+                src={ganasaktiLogo}
+                // className={classes.clientIcons}
+                width="160"
+                draggable="false"
+              />
+              <Typography variant="subtitle1" color="textSecondary">
+                Ganasakti
+              </Typography>
+            </Grid>
           </Grid>
-
-          <Grid item md={3} xs={6} className={classes.clientsGrids}>
-            <img
-              src={ganasaktiLogo}
-              // className={classes.clientIcons}
-              width="160"
-              draggable="false"
-            />
-            <Typography variant="subtitle1" color="textSecondary">
-              Ganasakti
-            </Typography>
-          </Grid>
-        </Grid>
         </Grid>
         <Grid
           container
           alignItems="flex-end"
           className={classes.clientsGridsParent}
         >
-          
-
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
-            <div style={{display: 'grid', justifyContent: 'center'}}>
-              
-             <Avatar style={{width: '80px', height: '80px', backgroundColor: 'lightgreen'}}>DB</Avatar> 
-            
+            <div style={{ display: "grid", justifyContent: "center" }}>
+              <Avatar
+                style={{
+                  width: "80px",
+                  height: "80px",
+                  backgroundColor: "lightgreen",
+                }}
+              >
+                DB
+              </Avatar>
             </div>
             <Typography variant="subtitle1" color="textSecondary">
               DB Industries
             </Typography>
           </Grid>
-
 
           <Grid item md={3} xs={6} className={classes.clientsGrids}>
             <img
@@ -228,42 +227,53 @@ class Clients extends Component {
               Assam School of Journalism
             </Typography>
           </Grid>
+
+          <Grid item md={3} xs={6} className={classes.clientsGrids}>
+            <img
+              src={jcafeLogo}
+              className={classes.clientIcons}
+              draggable="false"
+            />
+            <Typography variant="subtitle1" color="textSecondary">
+              Jollywood Cafe
+            </Typography>
+          </Grid>
         </Grid>
       </div>
     );
   }
 }
 
-const styles = theme => ({
+const styles = (theme) => ({
   clientsParent: {
-    textAlign: "center"
+    textAlign: "center",
   },
   clientsHeadingBig: {
     marginBottom: 30,
     [theme.breakpoints.down("xs")]: {
-      display: "none"
-    }
+      display: "none",
+    },
   },
   clientsHeadingSmall: {
     [theme.breakpoints.up("sm")]: {
-      display: "none"
-    }
+      display: "none",
+    },
   },
   clientsGridsParent: {
-    marginTop: 50
+    marginTop: 50,
   },
   clientsGrids: {
     [theme.breakpoints.down("xs")]: {
-      paddingBottom: 40
-    }
+      paddingBottom: 40,
+    },
   },
   clientIcons: {
     width: 100,
     [theme.breakpoints.down("xs")]: {
-      width: 80
+      width: 80,
       // paddingBottom: 20d
-    }
-  }
+    },
+  },
 });
 
 export default withStyles(styles)(Clients);
